@@ -44,6 +44,10 @@ This is a modern real estate listing web application built with Next.js, TypeScr
 - `src/lib/sanity/` - Sanity client and property queries
 - `public/` - Static assets and icons
 
+## Live Recording
+
+[Watch the project walkthrough on Loom](https://www.loom.com/share/9b919bb8f3fe4dd3bb1494d4863c93a5?sid=7f2c1d71-0b4e-4c2d-a032-e9a0410cd15b)
+
 ## Live Demo
 
 [https://real-estate-web-five-phi.vercel.app/](https://real-estate-web-five-phi.vercel.app/)
