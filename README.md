@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real Estate Web - Next.js, Sanity, TailwindCSS
+
+## Project Overview
+
+This is a modern real estate listing web application built with Next.js, TypeScript, TailwindCSS, and Sanity CMS. The project demonstrates full-stack skills including API integration, dynamic routing, rich content rendering, and responsive UI design.
+
+### Features
+
+- **Homepage:** Lists all published properties with title, price, location (with icon), and thumbnail image.
+- **Property Detail Page:** Displays full property details including rich text description, price, location, and image. Includes a back button for navigation.
+- **Sanity CMS Integration:** All property data is managed in Sanity and fetched via GROQ queries using the official client.
+- **Styling:** Styled with TailwindCSS, featuring a colorful, readable, and responsive design.
+
+### Technologies Used
+
+- Next.js (App Router)
+- TypeScript
+- TailwindCSS
+- Sanity CMS
+- @portabletext/react
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd real-estate-web
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables:
+   - Copy `.env.local.example` to `.env.local` and add your Sanity project ID.
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Folder Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `src/app/` - Next.js pages and components
+- `src/lib/sanity/` - Sanity client and property queries
+- `public/` - Static assets and icons
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Update property schema in Sanity to add more fields or validation.
+- Tweak TailwindCSS classes for custom branding.
+- Extend the UI with search, filters, or authentication as needed.
 
-## Learn More
+## Demo
 
-To learn more about Next.js, take a look at the following resources:
+![Homepage Screenshot](public/demo-homepage.png)
+![Property Detail Screenshot](public/demo-detail.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Nyoman Adiwinanda
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For questions or feedback, feel free to contact me via GitHub or email.
