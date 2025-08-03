@@ -52,6 +52,10 @@ This is a modern real estate listing web application built with Next.js, TypeScr
 
 <a href="https://real-estate-web-five-phi.vercel.app/" target="_blank" rel="noopener noreferrer">https://real-estate-web-five-phi.vercel.app/</a>
 
+## CMS (Sanity Studio)
+
+<a href="https://github.com/NyomanAdiwinanda/studio-real-estate" target="_blank" rel="noopener noreferrer">https://github.com/NyomanAdiwinanda/studio-real-estate</a>
+
 ## Screenshots
 
 ![Homepage Screenshot 1](https://github.com/user-attachments/assets/5b76b0d6-4db7-4d4f-8557-a0619b2b2df7)
