@@ -44,21 +44,13 @@ This is a modern real estate listing web application built with Next.js, TypeScr
 - `src/lib/sanity/` - Sanity client and property queries
 - `public/` - Static assets and icons
 
-## Customization
+## Live Demo
 
-- Update property schema in Sanity to add more fields or validation.
-- Tweak TailwindCSS classes for custom branding.
-- Extend the UI with search, filters, or authentication as needed.
+[https://real-estate-web-five-phi.vercel.app/](https://real-estate-web-five-phi.vercel.app/)
 
-## Demo
+## Screenshots
 
-![Homepage Screenshot](public/demo-homepage.png)
-![Property Detail Screenshot](public/demo-detail.png)
-
-## Author
-
-Nyoman Adiwinanda
-
----
-
-For questions or feedback, feel free to contact me via GitHub or email.
+![Homepage Screenshot 1](https://github.com/user-attachments/assets/5b76b0d6-4db7-4d4f-8557-a0619b2b2df7)
+![Homepage Screenshot 2](https://github.com/user-attachments/assets/eed965f2-b027-4e32-985f-5a50cdeb956e)
+![Property Detail Screenshot 1](https://github.com/user-attachments/assets/09f38d0b-4fc2-44c1-ae8e-66ad4d56cac6)
+![Property Detail Screenshot 2](https://github.com/user-attachments/assets/683fdeea-71da-41f9-9412-46b7a5e88dd2)
