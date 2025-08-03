@@ -3,8 +3,13 @@ import Image from "next/image";
 import { PortableText } from "@portabletext/react";
 import Link from "next/link";
 
-export default async function PropertyDetailPage({ params }: { params: { slug: string } }) {
-	const property = await getPropertyBySlug(params.slug);
+interface PropertyDetailProps {
+	params: Promise<{ slug: string }>;
+}
+
+export default async function PropertyDetailPage({ params }: PropertyDetailProps) {
+	const { slug } = await params;
+	const property = await getPropertyBySlug(slug);
 	if (!property) {
 		return <div className="max-w-2xl mx-auto py-10">Property not found.</div>;
 	}
