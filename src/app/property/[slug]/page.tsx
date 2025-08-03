@@ -2,6 +2,7 @@ import { getPropertyBySlug } from "@/lib/sanity/property";
 import Image from "next/image";
 import { PortableText } from "@portabletext/react";
 import Link from "next/link";
+export const dynamic = "force-dynamic";
 
 interface PropertyDetailProps {
 	params: Promise<{ slug: string }>;
